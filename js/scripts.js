@@ -452,3 +452,17 @@ frame();
 
 // First particle explosion
 initParticles(config.particleNumber);
+
+
+var x = document.getElementById("myAudio"); 
+x.play();
+var a = true;
+function toggleAudio(){
+    a = !a;
+    if(a== true){
+       x.play(); 
+   }else{
+    x.pause();
+   }
+    
+}

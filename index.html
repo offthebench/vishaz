@@ -51,13 +51,19 @@
     	==== Start Navbar -->
 
 		<nav class="navbar navbar-expand-lg">
-            <!-- <iframe src="img/song.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-            </iframe>  -->
-            <!-- <audio src="img/song.mp3" autoplay="autoplay" loop="loop"></audio> -->
+            <audio id="myAudio">
+                  <source src="horse.ogg" type="audio/ogg">
+                  <source src="img/song.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <img onclick="toggleAudio()" class="audio-img" src="img/images/audio-play.png" >
+<!--                 <button onclick="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button>  -->
+ <!--            <audio src="img/song.mp3" autoplay="autoplay" loop="loop"></audio> -->
 			<div class="container">
-
+                <a style="display:none" href="https://icons8.com">Icon pack by Icons8</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="icon-bar"><i class="fas fa-bars"></i></span>
+			    <span class="icon-bar"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABkSURBVGhD7djBDYAgDEBRJjBxYfdwLRfSMgGcoKnvJf/eHpoQGgBQ3BXdyeszDj3Rm7w+45BFFja1SJkbAWCLIzqT12cc8kRZmEWyNbVImWMHYAsfdAv71xOlzCI+6ACArVr7AD89CA+8gvNUAAAAAElFTkSuQmCC"></span>
 			  </button>
 
 			  <!-- navbar links -->
@@ -65,7 +71,7 @@
 
 			    <ul class="navbar-nav ml-auto">
 			      <li class="nav-item">
-			        <a class="nav-link active" href="#" data-scroll-nav="0">We</a>
+			        <a onclick="stopAudio()" class="nav-link active" href="#" data-scroll-nav="0">We</a>
 			      </li>
 			      <li class="nav-item">
                     <a class="nav-link" href="#" data-scroll-nav="1">Our Story</a>
@@ -128,7 +134,7 @@
                         <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 text-center">
                             <h4 class="extra-title">Our Story</h4>
                             <div class="bckdrp">
-                                <p class="stry-txt">If we had to tell you one thing about us... it would be that we're so thankful. Thankful that God brought us together. Our Journey started back in engineering days when we fiught like cats and mouse . We have seen each other grow in life achieving career goals , professional aims , fighting with the odds , learning from our own and each other's  mistakes and at last realising how love can make even simple things so beautiful in life .
+                                <p class="stry-txt">If we had to tell you one thing about us... it would be that we're so thankful. Thankful that God brought us together. Our Journey started back in engineering days when we fight like cats and mouse . We have seen each other grow in life achieving career goals , professional aims , fighting with the odds , learning from our own and each other's  mistakes and at last realising how love can make even simple things so beautiful in life .
                                 </p>
      
                                 <p class="stry-txt">
@@ -298,7 +304,7 @@
                     </div>
                     <div class="cnvs-wrpr">
                         <canvas id="canvas"></canvas>
-<!--                         <h1 class="cnvs-hdng">Click Anywhere</h1> -->
+                        <h1 class="cnvs-hdng">Poke To Shower Blessings</h1>
                     </div>
 
                 </div>
@@ -328,7 +334,7 @@
         ==== Start Price -->
 
         <section class="price section-padding bg-gray pos-re venue" data-scroll-index="4">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     
                     <div class="section-head col-md-12 col-lg-12">
@@ -347,6 +353,7 @@
                     <div class="lctn-vnu">
                         <a href="https://www.google.com/maps/place/Rama+Ceremonial/@28.532403,77.383989,17z/data=!3m1!4b1!4m5!3m4!1s0x390ce8a44522e24b:0xc85ad2c7c12204f8!8m2!3d28.532403!4d77.386183"
                         target="blank">
+                            <p class="vue-mp-txt">View Map</p>
                             <img src="img/images/map.jpg" class="map-img">
                         </a>
                     </div>

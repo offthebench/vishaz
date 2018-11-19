@@ -100,12 +100,16 @@
 }
 .venue .hall-img{
 	width:100%;
-	height:420px;
-	    border-radius: 36px;
+	height:600px;
 }
 .map-img{
 	height: 190px;
 	border-radius: 36px;
+}
+p.vue-mp-txt{
+    color: #fff;
+    font-family: cursive;
+    font-size: 28px;
 }
 
 .our-story{
@@ -262,16 +266,18 @@ canvas {
   border: 1px soild black;
 }
 .cnvs-hdng {
-  display: inline-block;
-  padding: .3em;
-  font-family: 'Megrim', cursive;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  user-select: none;
-  transform: translate(-50%,-50%);
-  color: rgba(255,255,255,.68);
-  border: .075em solid rgba(255,255,255,.1);
+    display: inline-block;
+    padding: 0.3em;
+    font-family: 'Megrim', cursive;
+    position: absolute;
+    top: 7%;
+    right: -10%;
+    user-select: none;
+    transform: translate(-50%,-50%);
+    color: rgba(255,255,255,.68);
+    border: .075em solid rgba(255,255,255,.1);
+    font-size: 30px;
+    border-radius: 10px;
 }
 .wdng-wrpr{
 	position: relative;
@@ -283,7 +289,7 @@ canvas {
     padding:100px 0;
 }
 .cnvs-wrpr{
-	    margin-bottom: -5px;
+	margin-bottom: -5px;
 }
 
 
@@ -306,6 +312,133 @@ canvas {
   100% { 
         transform: scale(1); 
   }
+}
+
+.audio-img{
+	width: 40px;
+    height: 40px;
+    border: 2px solid #444;
+    border-radius: 50%;
+    padding: 7px;
+    position: fixed;
+    right: 33px;
+    top: 14px;
+}
+.audio-img:hover{
+	opacity: 0.5;
+	transition: all 0.4s;
+	cursor: pointer;
+}
+
+
+@media only screen and (max-width: 991px){
+.header {
+	background-position: 80% 0% !important;
+	}
+.header .caption {
+	margin:10% 0 0 0 !important;
+}
+.journey{
+	    padding: 20px 0px !important;
+}
+.journey .item{
+	width:100%;
+}
+.journey .item .bg{
+	margin:0;
+}
+.wdng-txt{
+	padding: 30px 0 0 0;
+}
+.whn-sctn,.whr-sctn{
+	width:100%;
+	border:none;
+}
+.whr-sctn{
+	margin-top: 30px;
+}
+.cnvs-hdng{
+	    font-size: 20px;
+    top: unset;
+    bottom: 3%;
+    right: unset;
+    left: 50%;
+    display: block;
+}
+.testimonials{
+	background-position-x: 50%;
+}
+.venue h4{
+	font-size: 40px;
+}
+.venue p{
+	font-size: 20px;
+}
+.lctn-vnu{
+	position: unset;
+    width: 100%;
+    margin: 0 40px 40px 40px;
+}
+.venue .hall-img {
+    height: 240px;
+}
+p.vue-mp-txt{
+	color: #000;
+}
+.venue{
+	padding: 50px 0 150px 0;
+}
+.rsvp{
+	background-position-y: 100%;
+	height: 100%;
+}
+.call-action h2{
+	margin: -40% 0 0 0;
+}
+.testimonials{
+	height: 300px;
+}
+.journey .section-head{
+	margin-bottom: 0;
+}
+.process{
+	display: none;
+}
+.bg1,.bg12,.bg15,.bg16{
+	    background-position-x: 0px;
+}
+.icon-bar img{
+	width:40px;
+}
+.navbar .navbar-collapse{
+	max-height: 340px;
+    overflow: auto;
+    background: #fff;
+    text-align: center;
+    padding: 10px 0;
+    color: #000;
+    max-width: 97%;
+    border-radius: 20px;
+    border: 1px solid #eee;
+}
+.nav-scroll .navbar-collapse .nav-link{
+	color:#000 !important;
+}
+.navbar-toggler:focus{
+	outline: none !important;
+	border: none !important;
+}
+
+
+
+.audio-img{
+    border: 2px solid #000;
+}
+
+
+
+
+
 }
 
 
