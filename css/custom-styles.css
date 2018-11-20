@@ -14,13 +14,12 @@
 .jrny-img{
 	height: 100%;
 }
-
-.journey .owl-carousel{
-	height: 250px !important;
-}
 .wedding{
 	/*background-color: rgba(214, 187, 110, 1);*/
 	padding:0;
+}
+.wedding:hover,.ostry-img:hover{
+    cursor: pointer;
 }
 .wedding .section-head h4{
 	color: #fff;
@@ -80,14 +79,15 @@
 	margin: 0 0 0 20px;
 }
 .venue h4{
-	font-size: 60px;
+	font-size: 50px;
     color: #000;
-    font-family: fantasy;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
 }
 .venue p{
-	font-size: 40px;
+	font-size: 30px;
 	color: #000;
-    font-family: cursive;
+    font-family: 'Rubik', sans-serif;
 }
 .venue .section-head{
 	width:100%;
@@ -108,7 +108,7 @@
 }
 p.vue-mp-txt{
     color: #fff;
-    font-family: cursive;
+    font-family: 'Rubik', sans-serif;
     font-size: 28px;
 }
 
@@ -136,6 +136,10 @@ p.vue-mp-txt{
 }
 .rsvp .hdng,.rsvp .sbhdng{
 	font-family: cursive;
+        z-index: 4;
+    position: relative;
+    font-family: cursive;
+    color: rgba(255,255,255,1);
 }
 footer{
 	background-color: rgba(214, 187, 110, 1);
@@ -168,7 +172,7 @@ background: linear-gradient(to bottom,rgba(255,255,255,0.5) 0%,transparent 100%)
 	    font-family: monospace;
 }*/
 .navbar .navbar-nav .active{
-	color:white !important;
+	color:aqua !important;
 	/*font-weight: bolder;*/
 }
 .journey .item{
@@ -207,7 +211,8 @@ background: linear-gradient(to bottom,rgba(255,255,255,0.5) 0%,transparent 100%)
     background-image: url(../img/images/journey/j15.jpg);
 }
 .bg6{
-    background-image: url(../img/images/journey/j16.jpg);
+    background-image: url(../img/images/journey/j4.jpg);
+    background-size: 108% 100%;
 }
 .bg7{
     background-image: url(../img/images/journey/j18.jpg);
@@ -331,6 +336,7 @@ canvas {
 }
 
 
+
 @media only screen and (max-width: 991px){
 .header {
 	background-position: 80% 0% !important;
@@ -393,7 +399,7 @@ p.vue-mp-txt{
 	height: 100%;
 }
 .call-action h2{
-	margin: -40% 0 0 0;
+	margin: -30% 0 0 0;
 }
 .testimonials{
 	height: 300px;
@@ -420,6 +426,7 @@ p.vue-mp-txt{
     max-width: 97%;
     border-radius: 20px;
     border: 1px solid #eee;
+    margin-top: 10px;
 }
 .nav-scroll .navbar-collapse .nav-link{
 	color:#000 !important;
@@ -433,10 +440,13 @@ p.vue-mp-txt{
 
 .audio-img{
     border: 2px solid #000;
+        top: 7px;
 }
 
 
-
+.navbar .navbar-nav .nav-link{
+    color:#000;
+}
 
 
 }
